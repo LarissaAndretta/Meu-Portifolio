@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home.jsx';
 import './custom.css'
-import SobreMim from './pages/Sobremim.jsx';
+import SobreMim from './pages/SobreMim.jsx';
 
 const router = createBrowserRouter([
   {
