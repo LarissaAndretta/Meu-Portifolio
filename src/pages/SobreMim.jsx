@@ -1,10 +1,10 @@
 import React from "react";
 
-function SobreMim(){
+function Sobremim(){
     return(
         <>
         Testeeeeeeeeeeee</>
     );
 }
 
-export default SobreMim;
+export default Sobremim
