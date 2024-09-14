@@ -12,6 +12,7 @@ import Home from './pages/Home.jsx';
 import './custom.css'
 
 import Sobremim from './pages/Sobremim.jsx';
+import Contato from './pages/Contato.jsx';
 
 
 const router = createBrowserRouter([
@@ -21,17 +22,17 @@ const router = createBrowserRouter([
   },
   {
     path: "/sobremim",
-    element: <Sobremim />
+    element: <Sobremim/>
   },
   {
     path: "/contato",
-    element: <Contato />
+    element: <Contato/>
   },
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
-    <RouterProvider router={router} />
+    <RouterProvider router={router}/>
   </StrictMode>,
 )
