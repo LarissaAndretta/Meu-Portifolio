@@ -14,15 +14,15 @@ import './custom.css'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>
+    element: <Home />
   },
   {
     path: "sobremim",
-    element: <>Teste</>
+    element: <Home />
   },
   {
     path: "contato",
-    element: <>Teste</>
+    element: <Home />
   },
 ]);
 
