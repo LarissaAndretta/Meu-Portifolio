@@ -11,7 +11,7 @@ import {
 import Home from './pages/Home.jsx';
 import './custom.css'
 
-import SobreMim from './pages/Sobremim.jsx';
+import Sobremim from './pages/Sobremim.jsx';
 
 
 const router = createBrowserRouter([
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/sobremim",
-    element: <SobreMim />
+    element: <Sobremim />
   },
   {
     path: "/contato",
