@@ -23,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: "contato",
-    element: <Home />
+    element: <SobreMim />
   },
 ]);
 
