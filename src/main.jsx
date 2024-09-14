@@ -10,7 +10,6 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home.jsx';
 import './custom.css'
-import SobreMim from './pages/Sobremim.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,12 +17,12 @@ const router = createBrowserRouter([
     element: <Home/>
   },
   {
-    path: "SobreMim",
-    element: <SobreMim />
+    path: "sobremim",
+    element: <>Teste</>
   },
   {
-    path: "Contato",
-    element: <SobreMim />
+    path: "contato",
+    element: <>Teste</>
   },
 ]);
 
